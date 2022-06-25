@@ -13,11 +13,11 @@
   
   /* font size */
   --paragraph-font-size: 14px;
-
 }
 
 body {
   background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {
@@ -28,5 +28,6 @@ body {
 
 .container {
   width: 1440px;
+  padding: 10px;
   margin: 0 auto;
 }
