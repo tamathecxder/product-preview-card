@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--cream);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -30,4 +30,50 @@ body {
   width: 1440px;
   padding: 10px;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1 0 100%;
+}
+
+.card {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  overflow: hidden !important;
+}
+
+.card-image {
+  display: flex;
+  width: 50%;
+  height: auto;
+  background-color: #000;
+  border-collapse: collapse;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: -50% 20%;
+}
+
+
+
+.card-body {
+  width: 50%;
 }
